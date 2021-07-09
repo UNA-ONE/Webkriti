@@ -3,7 +3,7 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/UNA-ONE/Webkriti?branch=master)](https://bettercodehub.com/)
 
 
-#Attendance Management System
+# Attendance Management System
 
 
 This project shows a company named PANACEA that provides several IT solutions. I have used HTML, CSS, and JavaScript for the frontend and Node js for the backend. It uses my SQL to store all information about the user, and after registration, the user can log in and access several features. I have used user authentication for log in /signup, jwt tokens, middlewares. 
@@ -89,7 +89,7 @@ To run this project on your local system follow these steps--
 
 Clone this to the directory of your choice.
 
-Install several dependencies like-
+Used dependencies --
 "bcryptjs"
     "cookie-parser"
    ,  "dotenv"
@@ -98,6 +98,8 @@ Install several dependencies like-
    ,  "jsonwebtoken"
    ,  "mysql"
    ,  "nodemon"
+   Installation-- npm install
+   
 Using Terminal or Code editor of your choice.
 For running mysql locally you can use XAMPP server as it is the most simplest way to get started with it.
 After all this just run npm start in the terminal.
