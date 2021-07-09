@@ -6,7 +6,7 @@
 # Attendance Management System
 
 
-This project shows a company named PANACEA that provides several IT solutions. I have used HTML, CSS, and JavaScript for the frontend and Node js for the backend. It uses my SQL to store all information about the user, and after registration, the user can log in and access several features. I have used user authentication for log in /signup, jwt tokens, middlewares. 
+This project shows a company named PANACEA that provides several IT solutions. I have used HTML, CSS, and JavaScript for the frontend and Node js for the backend. It uses my SQL to store all information about the user, and after registration, the user can log in and access several features. I have used user authentication for log in /signup, jwt, middlewares. 
 This project is still in the developmental stage. Many features like attendance management for users, analytics, email sending are still there to add.
 
 # ScreenShots
@@ -72,7 +72,7 @@ User Signup page--
 Various CSS hover,transitions effects.
 
 ## Backend
-User authentication, hashed password, cookie parser, jwt tokens, middlewares.CRUD funtionality will be added soon.
+User authentication, hashed password, cookie parser, jwt, middlewares.CRUD funtionality will be added soon.
 
 # Technologies/Libraries/Packages Used
 HTML
@@ -98,7 +98,7 @@ Used dependencies --
    ,  "jsonwebtoken"
    ,  "mysql"
    ,  "nodemon"
-   Installation-- npm install
+   ,  Installation-- npm install
    
 Using Terminal or Code editor of your choice.
 For running mysql locally you can use XAMPP server as it is the most simplest way to get started with it.
