@@ -4,6 +4,7 @@ const dotenv = require("dotenv");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 dotenv.config({ path: './pass.env'});
+const port = process.env.PORT || 5000;
 
 
 
@@ -36,6 +37,6 @@ app.use('/', require('./routes/pages'));
 
 app.use('/auth', require('./routes/auth'));
 
-app.listen(5000,() => {
-    console.log("server started on port 5000");
+app.listen(port,() => {
+    console.log('listening to the port at ${port} ');
 })
