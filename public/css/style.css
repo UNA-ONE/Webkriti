@@ -1,12 +1,3 @@
-/* MEDIA QUERY BREAKPOINTS 
-    0-576px for portrait phones.
-    577-768px for tablets in portrait mode.
-    769-991 for tablets in landcape mode.
-    992-1200px for laptops.
-    1200px+ for large devices.
-
-
-*/
 @keyframes fade1 {
   0% {
     opacity: 1;
